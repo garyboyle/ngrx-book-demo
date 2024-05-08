@@ -74,18 +74,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ngrx-book-demo:build"
+            "buildTarget": "ngrx-book-demo:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ngrx-book-demo:build:production"
+              "buildTarget": "ngrx-book-demo:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ngrx-book-demo:build"
+            "buildTarget": "ngrx-book-demo:build"
           }
         },
         "test": {
